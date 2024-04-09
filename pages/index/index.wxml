@@ -14,7 +14,8 @@
     </view>
     <!--第二排-->
     <view>
-      <image src="" mode=""/>
+      <view class="aa"> <image class="tubiao" src="/picture/first/tubiao/学校.png"></image></view>
+      <view class="ab"></view>
     </view>
     <view></view>
     <view></view>

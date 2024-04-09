@@ -8,6 +8,7 @@ page {
   flex: 1;
   overflow-y: hidden;
 }
+/*第一排*/
 .diyi{
   width: 650rpx;
   height: 300rpx;
@@ -42,4 +43,22 @@ page {
 .text view:last-child navigator{
   text-align: center;
   line-height: 45rpx;
+}
+/*第二排*/
+.aa{
+  height: 100rpx;
+  width: 100rpx;
+  background-color: rgba(246,176,89,1);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.tubiao{
+  max-width: 100%;
+  max-height: 100%;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  position: relative;
+  top: 25%;
+  left: 25%;
 }
