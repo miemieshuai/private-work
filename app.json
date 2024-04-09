@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/list/list",
+    "pages/news/news",
+    "pages/find/find",
+    "pages/me/me"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "list": [
+      {
+      "pagePath": "pages/index/index",
+      "text": "主页",
+      "iconPath": "picture/小程序.png",
+      "selectedIconPath": "picture/小程序_图标1 (10).png"
+     },
+     {
+      "pagePath": "pages/list/list",
+      "text": "不知道",
+      "iconPath": "picture/招商小程序-加号.png",
+      "selectedIconPath": "picture/招商小程序-关闭.png"
+     }
+  ]
+  },
+  
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

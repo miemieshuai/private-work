@@ -1,0 +1,45 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+.diyi{
+  width: 650rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.text {
+  position: absolute;
+  top: 250rpx;  /* 根据需要调整位置 */
+  left: 80rpx; /* 根据需要调整位置 */
+  color: white; /* 文字颜色 */
+  font-size: 20rpx; /* 文字大小 */
+}
+.text view:first-child{
+  font-size: 30rpx;
+  margin-bottom: 25rpx;
+}
+
+.text view:nth-child(2){
+  margin-bottom: 10rpx;
+}
+
+.text view:last-child{
+  margin-top: 30rpx;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 50rpx;
+  height: 45rpx;
+  width: 110rpx;
+}
+.text view:last-child navigator{
+  text-align: center;
+  line-height: 45rpx;
+}

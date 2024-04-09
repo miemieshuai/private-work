@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<navigation-bar title="Weixin" back="{{false}}" color="black" background="green" style="height: 1rpx;"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    <!--第一排-->
+    <view>
+      <image class="diyi" src="/picture/first/1.png"/>
+      <view class="text">
+        <view>智慧校园门户</view>
+        <view>学校概况 办事指南等功能</view>
+        <view>方便快捷 办事实时查看消息</view>
+        <view><navigator url="#">去了解</navigator></view>
+      </view>
+    </view>
+    <!--第二排-->
+    <view>
+      <image src="" mode=""/>
+    </view>
+    <view></view>
+    <view></view>
+  </view>
+</scroll-view>
