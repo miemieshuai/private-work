@@ -3,7 +3,7 @@
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
     <!--第一排-->
-    <view>
+    <view style="height: 200rpx;">
       <image class="diyi" src="/picture/first/1.png"/>
       <view class="text">
         <view>智慧校园门户</view>
@@ -13,11 +13,25 @@
       </view>
     </view>
     <!--第二排-->
-    <view>
-      <view class="aa"> <image class="tubiao" src="/picture/first/tubiao/学校.png"></image></view>
-      <view class="ab"></view>
+    <view class="tubiaokuang" style="position: relative; left: 1rpx; top: 134rpx">
+      <view class="TBstyle" style="background-color: rgba(246,176,89,1);"> <image class="tubiao" src="/picture/first/tubiao/学校.png"></image></view>
+      <view class="TBstyle" style="background-color: rgba(143,106,255,1);"> <image class="tubiao" src="/picture/first/tubiao/成绩.png"></image></view>
+      <view class="TBstyle" style="background-color: rgba(236,30,113,1)"> <image class="tubiao" src="/picture/first/tubiao/缴费.png"></image></view>
+      <view class="TBstyle" style="background-color: rgba(3,227,145,1);"> <image class="tubiao" src="/picture/first/tubiao/预警.png"></image></view>
+      <view class="TBstyle" style="background-color: rgba(30,157,255,1);"> <image class="tubiao" src="/picture/first/tubiao/全部.png"></image></view>
     </view>
-    <view></view>
+    <view class="wenzi" style="width: 650rpx; height: 57rpx; display: flex; box-sizing: border-box; position: relative; left: -8rpx; top: 120rpx">
+        <view>学校概况</view>
+        <view>成绩查询</view>
+        <view>缴费入口</view>
+        <view>学院预警</view>
+        <view>全部</view>
+      </view>
+    <!--第三排-->
+    <view class="nannv" style="position: relative; left: 2rpx; top: 136rpx">
+      <view class="mankuang"><image class="man" src="/picture/first/nannv/man.png"></image></view>
+      <view class="womankuang"><image class="woman" src=""></image></view>
+    </view>
     <view></view>
   </view>
 </scroll-view>
