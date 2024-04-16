@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<navigation-bar title="Weixin" back="{{false}}" color="black" background="green" style="height: 129rpx;"></navigation-bar>
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="rgba(248,248,248,1)" style="height: 129rpx;"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
     <!--第一排-->
