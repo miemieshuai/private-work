@@ -1,0 +1,173 @@
+<!--index.wxml-->
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="rgba(248,248,248,1)" style="height: 129rpx;"></navigation-bar>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+    <!--第一排-->
+    <view style="height: 200rpx;">
+      <image class="diyi" src="/picture/first/1.png"/>
+      <view class="text">
+        <view>智慧校园门户</view>
+        <view>学校概况 办事指南等功能</view>
+        <view>方便快捷 办事实时查看消息</view>
+        <view><navigator url="#">去了解</navigator></view>
+      </view>
+    </view>
+    <!--第二排-->
+    <view class="tubiaokuang" style="position: relative; left: 0rpx; top: 119rpx">
+      <view class="TBstyle" style="background-color: rgba(246,176,89,1);"> <image class="tubiao" src="/picture/first/tubiao/学校.png"></image></view>
+      <view class="TBstyle" style="background-color: rgba(143,106,255,1);"> <image class="tubiao" src="/picture/first/tubiao/成绩.png"></image></view>
+      <view class="TBstyle" style="background-color: rgba(236,30,113,1)"> <image class="tubiao" src="/picture/first/tubiao/缴费.png"></image></view>
+      <view class="TBstyle" style="background-color: rgba(3,227,145,1);"> <image class="tubiao" src="/picture/first/tubiao/预警.png"></image></view>
+      <view class="TBstyle" style="background-color: rgba(30,157,255,1);"> <image class="tubiao" src="/picture/first/tubiao/全部.png"></image></view>
+    </view>
+    <view class="wenzi" style="width: 650rpx; height: 57rpx; display: flex; box-sizing: border-box; position: relative; left: -2rpx; top: 139rpx">
+        <view>学校概况</view>
+        <view>成绩查询</view>
+        <view>缴费入口</view>
+        <view>学院预警</view>
+        <view>全部</view>
+      </view>
+    <!--第三排-->
+    <view class="nannv" style="position: relative; left: -2rpx; top: 186rpx">
+      <view class="mankuang">
+        <image class="man" src="/picture/first/nannv/man.png"></image>
+        <view style="position: relative; left: 174rpx; top: -117rpx; width: 98rpx; height: 44rpx; display: block; box-sizing: border-box; font-size: 22rpx">待办事项</view>
+        <view style="position: relative; left: 174rpx; top: -116rpx; font-size: 17rpx; width: 98rpx; height: 22rpx; display: block; box-sizing: border-box">我的待办事项</view>
+      </view>
+      <view class="womankuang">
+        <image class="woman" src="/picture/first/nannv/woman.png"></image>
+        <View style="position: relative; left: -34rpx; top: -116rpx; width: 158rpx; height: 42rpx; display: block; box-sizing: border-box; font-size: 22rpx">办事指南</View>
+        <view style="position: relative; left: -86rpx; top: -116rpx; width: 211rpx; height: 42rpx; display: block; box-sizing: border-box; font-size: 17rpx">办事指南汇总</view>
+      </view>
+    </view>
+    <!--通知-->
+    <view style="display: flex; width: 650rpx; margin-top: 35rpx; position: relative; left: -2rpx; top: 186rpx">
+        <view class="tongzi"><image class="tongzitubiao" src="/picture/first/nannv/通知.png"></image></view>
+        <view style="width: 300rpx; font-size: 25rpx;line-height: 50rpx; margin-left: 30rpx;">关于系统上线运行的时间</view>
+    </view>
+    <!--第四排-->
+    <view class="dikuang" >
+      <view class="text" style="position: absolute; top: 50rpx; left: 50rpx; color: black;">
+        <view style="font-weight: 100rpx;">办事指南新体验</view>
+        <view style="color:gray;">新增办事指南和消息栏目</view>
+        <view style="color: gray;">办事更便捷</view>
+        <view style="background:linear-gradient(to right,rgba(63,189,245,1),rgba(132,227,223,1)); border: none;"><navigator url="#" style="color:white">去了解</navigator></view>
+      </view>
+      <image src="/picture/first/newfeel.png"/>
+    </view>
+    <!--第五排-->
+    <view class="diwukuang">
+      <view style="font-size: 45rpx; font-weight: 50rpx; margin-bottom: 30rpx;">推荐应用</view>
+      <view style="font-size: 25rpx; margin-bottom: 100rpx;">根据您最近浏览和办理应用为您推荐</view>
+      <!--滚动条-->
+      <scroll-view scroll-x type="list" style=" height: 320rpx;  width: 100%;">
+      <view style="display: flex;align-items: center; width: 1000rpx;">
+        <!--滚动条第一个-->
+        <view class="neirong">
+          <view class="yi">
+            <image src="/picture/first/文件-成绩.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+        <!--滚动条第二个-->
+        <view class="neirong">
+          <view class="yi">
+            <image src="/picture/first/文件-成绩.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+        <!--滚动条第三个-->
+        <view class="neirong">
+          <view class="yi">
+            <image src="/picture/first/文件-成绩.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+        <!--滚动条第四个-->
+        <view class="neirong">
+          <view class="yi">
+            <image src="/picture/first/文件-成绩.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+      </view>
+      </scroll-view>
+    </view>
+    <!--第六排-->
+    <view class="diliu">
+      <view style="display: flex; justify-content: space-around;">
+        <text style="font-size: 50rpx;margin: auto;">通知公告</text>
+        <text style="margin: auto;">通知公告</text>
+        <text style="margin: auto;">综合信息</text>
+        <text style="margin: auto;">学术动态</text>
+      </view>
+      <!--第一行-->
+      <view class="diyipai">
+        <view>
+          <view style="font-size: 28rpx; margin-top: 15rpx;">关于加强新生入学后校园安全管理规范</view>
+          <view style="font-size: 28rpx; margin-top: 5rpx;">的通知</view>
+          <view style="font-size: 18rpx; color: gray; margin-top: 15rpx;">校园新闻网</view>
+        </view>
+        <view class="tpdise">
+          <image src="/picture/first/item1.png"></image>
+        </view>
+      </view>
+      <!--第二行-->
+      <view class="diyipai">
+        <view>
+          <view style="font-size: 28rpx; margin-top: 15rpx;">关于2023新生入学教育系列培训课</view>
+          <view style="font-size: 28rpx; margin-top: 5rpx;">程的指导意见</view>
+          <view style="font-size: 18rpx; color: gray; margin-top: 15rpx;">信息化管理中心</view>
+        </view>
+        <view class="tpdise" style="background: linear-gradient(to bottom,rgba(129,179,55,1),rgba(129,179,55,0.2));">
+          <image src="/picture/first/item2.png"></image>
+        </view>
+      </view>
+      <!--第三行-->
+      <view class="diyipai">
+        <view>
+          <view style="font-size: 28rpx; margin-top: 15rpx;">关于加强新生入学后校园安全管理条例</view>
+          <view style="font-size: 28rpx; margin-top: 5rpx;">的通知</view>
+          <view style="font-size: 18rpx; color: gray; margin-top: 15rpx;">教务处</view>
+        </view>
+        <view class="tpdise">
+          <image src="/picture/first/item1.png"></image>
+        </view>
+      </view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+</scroll-view>

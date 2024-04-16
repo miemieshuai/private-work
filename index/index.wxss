@@ -1,0 +1,235 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+/*第一排*/
+.diyi{
+  width: 650rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+  overflow: hidden;
+}
+.text {
+  position: absolute;
+  top: 250rpx;  /* 根据需要调整位置 */
+  left: 80rpx; /* 根据需要调整位置 */
+  color: white; /* 文字颜色 */
+  font-size: 20rpx; /* 文字大小 */
+}
+.text view:first-child{
+  font-size: 30rpx;
+  margin-bottom: 25rpx;
+}
+
+.text view:nth-child(2){
+  margin-bottom: 10rpx;
+}
+
+.text view:last-child{
+  margin-top: 30rpx;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  border-radius: 50rpx;
+  height: 45rpx;
+  width: 110rpx;
+}
+.text view:last-child navigator{
+  text-align: center;
+  line-height: 45rpx;
+}
+/*第二排*/
+
+.tubiaokuang{
+  height: 120rpx;
+  width: 650rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.TBstyle{
+  height: 100rpx;
+  width: 100rpx;
+  background-color: rgba(246,176,89,1);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.tubiao{
+  max-width: 100%;
+  max-height: 100%;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  position: relative;
+  top: 25%;
+  left: 25%;
+}
+.wenzi{
+  font-size: 20rpx;
+  height: 50rpx;
+  width: 650rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+/*第三排*/
+.nannv{
+  display: flex;
+  justify-content: space-between;
+  height: 175rpx;
+  width: 650rpx;
+  color: white;
+}
+.mankuang{
+  width: 300rpx;
+  height: 175rpx;
+  background-color: red;
+  border-radius: 25rpx;
+  background: linear-gradient(to right,rgba(254,178,122,1),rgba(255,122,92,1));
+}
+.man{
+  max-width: 100%;
+  max-height: 100%;
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+.womankuang{
+  text-align: right;
+  width: 300rpx;
+  height: 175rpx;
+  background: linear-gradient(to right,rgba(149,249,218,1),rgba(83,189,232,1));
+  border-radius: 25rpx;
+}
+.woman{
+  max-width: 100%;
+  max-height: 100%;
+  width: 70%;
+  height: 100%;
+  object-fit: contain;
+  margin-right: -15rpx;
+}
+.tongzi{
+  background-color:rgba(0,173,123,1);
+  height: 50rpx;
+  width: 50rpx;
+  border-radius: 50%;
+}
+.tongzitubiao{
+  max-width: 100%;
+  max-height: 100%;
+  width: 50%;
+  height: 50%;
+  object-fit: contain;
+  position: relative;
+  top: 10%;
+  left: 25%;
+}
+/*第四排*/
+.dikuang{
+  width: 650rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.11);
+  position: relative;
+  left: -2rpx;
+  top: 214rpx
+}
+.dikuang image{
+  max-width: 100%;
+  max-height: 100%;
+  width: 350rpx;
+  display: relative;
+  float: right;
+}
+/*第五排*/
+.diwukuang{
+  margin-top: 280rpx;
+  height: 300rpx;
+  width: 650rpx;
+}
+.neirong{
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.11);
+  margin: auto;
+  height: 300rpx;
+  width: 230rpx;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yi{
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+  background: linear-gradient(to right,rgba(40,233,151,1),rgba(14,176,145,1));
+  margin: auto;
+}
+.yi image{
+  max-width: 100%;
+  max-height: 100%;
+  height: 60rpx;
+  width: 60rpx;
+  position: relative;
+  left: 25rpx;
+  top: 25rpx;
+}
+.er{
+  margin: auto;
+  font-size: 30rpx;
+}
+.san{
+  margin: auto;
+  font-size: 20rpx;
+}
+.si{
+  margin: auto;
+  height: 35rpx;
+  width: 100rpx;
+  background-color: rgba(239,239,239,0.61);
+  border-radius: 15rpx;
+}
+.si image{
+  max-width: 100%;
+  max-height: 100%;
+  height: 30rpx;
+  width: 35rpx;
+}
+.wu{
+  margin: auto;
+  height: 70rpx;
+  width: 70rpx;
+  
+}
+.wu image{
+  max-width: 100%;
+  max-height: 100%;
+}
+/*第六排*/
+.diliu{
+  width: 650rpx;
+  margin-top: 250rpx;
+}
+.diyipai{
+  height: 150rpx;
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25rpx;
+}
+.tpdise{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 15rpx;
+  background: linear-gradient(to bottom,rgba(180,253,255,1),rgba(180,253,255,0.2));
+}
+.tpdise image{
+  max-width: 100%;
+  max-height: 100%;
+}
