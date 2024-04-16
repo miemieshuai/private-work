@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<navigation-bar title="Weixin" back="{{false}}" color="black" background="green" style="height: 1rpx;"></navigation-bar>
+<navigation-bar title="Weixin" back="{{false}}" color="black" background="green" style="height: 129rpx;"></navigation-bar>
 <scroll-view class="scrollarea" scroll-y type="list">
   <view class="container">
     <!--第一排-->
@@ -13,14 +13,14 @@
       </view>
     </view>
     <!--第二排-->
-    <view class="tubiaokuang" style="position: relative; left: -2rpx; top: 84rpx">
+    <view class="tubiaokuang" style="position: relative; left: 0rpx; top: 119rpx">
       <view class="TBstyle" style="background-color: rgba(246,176,89,1);"> <image class="tubiao" src="/picture/first/tubiao/学校.png"></image></view>
       <view class="TBstyle" style="background-color: rgba(143,106,255,1);"> <image class="tubiao" src="/picture/first/tubiao/成绩.png"></image></view>
       <view class="TBstyle" style="background-color: rgba(236,30,113,1)"> <image class="tubiao" src="/picture/first/tubiao/缴费.png"></image></view>
       <view class="TBstyle" style="background-color: rgba(3,227,145,1);"> <image class="tubiao" src="/picture/first/tubiao/预警.png"></image></view>
       <view class="TBstyle" style="background-color: rgba(30,157,255,1);"> <image class="tubiao" src="/picture/first/tubiao/全部.png"></image></view>
     </view>
-    <view class="wenzi" style="width: 650rpx; height: 57rpx; display: flex; box-sizing: border-box; position: relative; left: -2rpx; top: 46rpx">
+    <view class="wenzi" style="width: 650rpx; height: 57rpx; display: flex; box-sizing: border-box; position: relative; left: -2rpx; top: 139rpx">
         <view>学校概况</view>
         <view>成绩查询</view>
         <view>缴费入口</view>
@@ -28,7 +28,7 @@
         <view>全部</view>
       </view>
     <!--第三排-->
-    <view class="nannv" style="position: relative; left: -2rpx; top: 39rpx">
+    <view class="nannv" style="position: relative; left: -2rpx; top: 186rpx">
       <view class="mankuang">
         <image class="man" src="/picture/first/nannv/man.png"></image>
         <view style="position: relative; left: 174rpx; top: -117rpx; width: 98rpx; height: 44rpx; display: block; box-sizing: border-box; font-size: 22rpx">待办事项</view>
@@ -41,10 +41,101 @@
       </view>
     </view>
     <!--通知-->
-    <view style="display: flex; width: 650rpx; margin-top: 35rpx;">
+    <view style="display: flex; width: 650rpx; margin-top: 35rpx; position: relative; left: -2rpx; top: 186rpx">
         <view class="tongzi"><image class="tongzitubiao" src="/picture/first/nannv/通知.png"></image></view>
         <view style="width: 300rpx; font-size: 25rpx;line-height: 50rpx; margin-left: 30rpx;">关于系统上线运行的时间</view>
     </view>
-    <view></view>
+    <!--第四排-->
+    <view class="dikuang" >
+      <view class="text" style="position: absolute; top: 50rpx; left: 50rpx; color: black;">
+        <view style="font-weight: 100rpx;">办事指南新体验</view>
+        <view style="color:gray;">新增办事指南和消息栏目</view>
+        <view style="color: gray;">办事更便捷</view>
+        <view style="background:linear-gradient(to right,rgba(63,189,245,1),rgba(132,227,223,1)); border: none;"><navigator url="#" style="color:white">去了解</navigator></view>
+      </view>
+      <image src="/picture/first/newfeel.png"/>
+    </view>
+    <!--第五排-->
+    <view class="diwukuang">
+      <view style="font-size: 45rpx; font-weight: 50rpx; margin-bottom: 30rpx;">推荐应用</view>
+      <view style="font-size: 25rpx; margin-bottom: 100rpx;">根据您最近浏览和办理应用为您推荐</view>
+      <!--滚动条-->
+      <scroll-view scroll-x type="list" style=" height: 320rpx;  width: 100%;">
+      <view style="display: flex;align-items: center; width: 1000rpx;">
+        <!--滚动条第一个-->
+        <view class="neirong">
+          <view class="yi">
+            <image src="/picture/first/文件-成绩.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+        <!--滚动条第二个-->
+        <view class="neirong">
+          <view class="yi">
+            <image src="/picture/first/文件-成绩.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+        <!--滚动条第三个-->
+        <view class="neirong">
+          <view class="yi">
+            <image src="/picture/first/文件-成绩.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+        <!--滚动条第四个-->
+        <view class="neirong">
+          <view class="yi">
+            <image src="/picture/first/文件-成绩.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+      </view>
+      </scroll-view>
+    </view>
+    <!--第六排-->
+    <view class="diliu">
+      <view>
+        <text style="font-size: 50rpx;margin: auto;">通知公告</text>
+        <text style="margin: auto;">通知公告</text>
+        <text style="margin: auto;">综合信息</text>
+        <text style="margin: auto;">学术动态</text>
+      </view>
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
   </view>
 </scroll-view>
