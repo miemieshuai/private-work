@@ -13,14 +13,14 @@
       </view>
     </view>
     <!--第二排-->
-    <view class="tubiaokuang" style="position: relative; left: 1rpx; top: 134rpx">
+    <view class="tubiaokuang" style="position: relative; left: 2rpx; top: 58rpx">
       <view class="TBstyle" style="background-color: rgba(246,176,89,1);"> <image class="tubiao" src="/picture/first/tubiao/学校.png"></image></view>
       <view class="TBstyle" style="background-color: rgba(143,106,255,1);"> <image class="tubiao" src="/picture/first/tubiao/成绩.png"></image></view>
       <view class="TBstyle" style="background-color: rgba(236,30,113,1)"> <image class="tubiao" src="/picture/first/tubiao/缴费.png"></image></view>
       <view class="TBstyle" style="background-color: rgba(3,227,145,1);"> <image class="tubiao" src="/picture/first/tubiao/预警.png"></image></view>
       <view class="TBstyle" style="background-color: rgba(30,157,255,1);"> <image class="tubiao" src="/picture/first/tubiao/全部.png"></image></view>
     </view>
-    <view class="wenzi" style="width: 650rpx; height: 57rpx; display: flex; box-sizing: border-box; position: relative; left: -8rpx; top: 120rpx">
+    <view class="wenzi" style="width: 650rpx; height: 57rpx; display: flex; box-sizing: border-box; position: relative; left: 0rpx; top: 8rpx">
         <view>学校概况</view>
         <view>成绩查询</view>
         <view>缴费入口</view>
@@ -28,9 +28,17 @@
         <view>全部</view>
       </view>
     <!--第三排-->
-    <view class="nannv" style="position: relative; left: 2rpx; top: 136rpx">
-      <view class="mankuang"><image class="man" src="/picture/first/nannv/man.png"></image></view>
-      <view class="womankuang"><image class="woman" src=""></image></view>
+    <view class="nannv" style="position: relative; left: 0rpx; top: -64rpx">
+      <view class="mankuang">
+        <image class="man" src="/picture/first/nannv/man.png"></image>
+        <view style="position: relative; left: 174rpx; top: -117rpx; width: 98rpx; height: 44rpx; display: block; box-sizing: border-box; font-size: 22rpx">待办事项</view>
+        <view style="position: relative; left: 174rpx; top: -116rpx; font-size: 17rpx; width: 98rpx; height: 22rpx; display: block; box-sizing: border-box">我的待办事项</view>
+      </view>
+      <view class="womankuang">
+        <image class="woman" src="/picture/first/nannv/woman.png"></image>
+        <View style="position: relative; left: -34rpx; top: -116rpx; width: 158rpx; height: 42rpx; display: block; box-sizing: border-box; font-size: 22rpx">办事指南</View>
+        <view style="position: relative; left: -86rpx; top: -116rpx; width: 211rpx; height: 42rpx; display: block; box-sizing: border-box; font-size: 17rpx">办事指南汇总</view>
+      </view>
     </view>
     <view></view>
   </view>
