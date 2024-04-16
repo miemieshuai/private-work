@@ -15,8 +15,8 @@
       {
       "pagePath": "pages/index/index",
       "text": "主页",
-      "iconPath": "picture/小程序.png",
-      "selectedIconPath": "picture/小程序_图标1 (10).png"
+      "iconPath": "picture/taBar/wxb主页.png",
+      "selectedIconPath": "picture/taBar/主页.png"
      },
      {
       "pagePath": "pages/list/list",
