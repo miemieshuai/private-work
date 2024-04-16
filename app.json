@@ -20,9 +20,27 @@
      },
      {
       "pagePath": "pages/list/list",
-      "text": "不知道",
-      "iconPath": "picture/招商小程序-加号.png",
-      "selectedIconPath": "picture/招商小程序-关闭.png"
+      "text": "应用",
+      "iconPath": "picture/taBar/应用.png",
+      "selectedIconPath": "picture/taBar/应用管理.png"
+     },
+     {
+      "pagePath": "pages/news/news",
+      "text": "消息",
+      "iconPath": "picture/taBar/消息.png",
+      "selectedIconPath": "picture/taBar/小程序_图标1 (10).png"
+     },
+     {
+      "pagePath": "pages/find/find",
+      "text": "发现",
+      "iconPath": "picture/taBar/发现.png",
+      "selectedIconPath": "picture/taBar/发现 (1).png"
+     },
+     {
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "picture/taBar/我的.png",
+      "selectedIconPath": "picture/taBar/我 的.png"
      }
   ]
   },
