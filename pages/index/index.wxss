@@ -17,7 +17,7 @@ page {
 }
 .text {
   position: absolute;
-  top: 250rpx;  /* 根据需要调整位置 */
+  top: 100rpx;  /* 根据需要调整位置 */
   left: 80rpx; /* 根据需要调整位置 */
   color: white; /* 文字颜色 */
   font-size: 20rpx; /* 文字大小 */
