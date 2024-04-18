@@ -13,11 +13,107 @@
   <view class="container">
   <!--两图片-->
     <view class="liangtupian">
+      <!--左边的图片-->
       <view class="left">
         <image src="/picture/list/appgirl.png"></image>
-        <view>待办事项</view>
-        <view>我的待办事项</view></view>
-      <view></view>
+        <view style="margin-right: 30rpx; margin-top:50rpx;">
+          <view style="font-size: 20rpx;">待办事项</view>
+          <view style="font-size: 15rpx; margin-top: 20rpx;">我的待办事项</view>
+        </view>
+      </view>
+      <!--右边的图片-->
+        <view class="left right">
+        <image src="/picture/list/appboy.png"></image>
+        <view style="margin-right: 30rpx; margin-top:50rpx;">
+          <view style="font-size: 20rpx;">待办指南</view>
+          <view style="font-size: 15rpx; margin-top: 20rpx;">办事指南汇总</view>
+        </view>
+      </view>
+    </view>
+    <!--推荐应用-->
+    <!--第无排-->
+    <view class="diwukuang">
+      <view style="font-size: 45rpx; font-weight: 50rpx; margin-bottom: 30rpx;font-weight: 900;">推荐应用</view>
+      <view style="font-size: 25rpx; margin-bottom: 100rpx;">根据您最近浏览和办理应用为您推荐</view>
+      <!--滚动条-->
+      <scroll-view scroll-x type="list" style=" height: 320rpx;  width: 100%;">
+      <view style="display: flex;align-items: center; width: 1000rpx;">
+        <!--滚动条第一个-->
+        <view class="neirong">
+          <view class="yi">
+            <image src="/picture/first/文件-成绩.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+        <!--滚动条第二个-->
+        <view class="neirong">
+          <view class="yi" style="background: linear-gradient(to right,rgb(252, 195, 49) 100%,rgba(255,138,14,1));">
+            <image src="/picture/first/图书.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+        <!--滚动条第三个-->
+        <view class="neirong">
+          <view class="yi" style="background: linear-gradient(to right,rgba(15,195,252,1),rgba(46,136,216,1));">
+            <image src="/picture/first/钱钱.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+        <!--滚动条第四个-->
+        <view class="neirong">
+          <view class="yi" style="background: linear-gradient(to right,rgba(222,134,143,1),rgba(189,49,36,1));">
+            <image src="/picture/first/预警.png"></image>
+          </view>
+          <view class="er">成绩查询</view>
+          <view class="san">查询当前及历史成绩</view>
+          <view class="si">
+            <image src="/picture/first/5.png"></image>
+            <text style="font-size: 20rpx;">100+</text>
+          </view>
+          <view class="wu">
+            <image src="/picture/first/招商小程序-加号.png"></image>
+          </view>
+        </view>
+      </view>
+      </scroll-view>
+    </view>
+    <!--最新上线-->
+    <view style="margin-top: 40rpx;">
+      <view class="biaoti">
+        <view class="zuixinshangxian">最新上线</view>
+        <view style="font-size: 27rpx;">电子商务</view>
+        <view style="font-size: 27rpx;">教学服务</view>
+        <view style="font-size: 27rpx;">科研服务</view>
+      </view>
+      <view style="margin-top: 80rpx;">
+        <view style="font-size: 30rpx;font-weight: 700;">最新上线</view>
+      </view>
+      <view>
+      </view>
     </view>
   </view>
 </scroll-view>

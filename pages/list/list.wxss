@@ -61,7 +61,8 @@ font-family: Roboto;
 .liangtupian{
   width: 650rpx;
   height: 250rpx;
-  background-color: purple;
+  display: flex;
+  justify-content: space-between;
 }
 .left{
   width: 300rpx;
@@ -74,11 +75,91 @@ font-family: Roboto;
 .left image{
   max-width: 100%;
   max-height: 100%;
-  width: 60%;
-  height: 90%;
+  width: 165rpx;
+  height: 150rpx;
   object-fit: contain;
-  margin-top: 16rpx;
+  margin-top: 23rpx;
 }
 .left view{
   color: white;
+}
+.right{
+  background: linear-gradient(to right,rgba(149,249,218,1),rgba(83,189,232,1));
+}
+/*推荐应用*/
+/*第五排*/
+.diwukuang{
+  margin-top: 50rpx;
+  height: 600rpx;
+  width: 650rpx;
+}
+.neirong{
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.11);
+  margin: auto;
+  height: 300rpx;
+  width: 230rpx;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.yi{
+  height: 100rpx;
+  width: 100rpx;
+  border-radius: 50%;
+  background: linear-gradient(to right,rgba(40,233,151,1),rgba(14,176,145,1));
+  margin: auto;
+}
+.yi image{
+  max-width: 100%;
+  max-height: 100%;
+  height: 60rpx;
+  width: 60rpx;
+  position: relative;
+  left: 25rpx;
+  top: 25rpx;
+}
+.er{
+  margin: auto;
+  font-size: 30rpx;
+}
+.san{
+  margin: auto;
+  font-size: 20rpx;
+}
+.si{
+  margin: auto;
+  height: 35rpx;
+  width: 100rpx;
+  background-color: rgba(239,239,239,0.61);
+  border-radius: 15rpx;
+}
+.si image{
+  max-width: 100%;
+  max-height: 100%;
+  height: 30rpx;
+  width: 35rpx;
+}
+.wu{
+  margin: auto;
+  height: 70rpx;
+  width: 70rpx;
+  
+}
+.wu image{
+  max-width: 100%;
+  max-height: 100%;
+}
+/*最新上线*/
+.biaoti{
+  width: 650rpx;
+  display: flex;
+  gap: 30rpx;
+  align-items: flex-end;
+}
+.zuixinshangxian{
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 7rpx;
 }
