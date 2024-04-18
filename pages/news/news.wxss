@@ -1,1 +1,160 @@
-/* pages/news/news.wxss */
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+/*搜索栏*/
+.SLL{
+  width: 390px;
+height: 44px;
+line-height: 20px;
+background-color: rgba(255,255,255,1);
+color: rgba(16,16,16,1);
+font-size: 14px;
+text-align: center;
+box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.1);
+font-family: Roboto;
+}
+.SSL_text{
+
+  line-height:40px;
+  color: rgb(16,16,16);
+  font-size: 17px;
+  text-align: left;
+  font-family: PingFangSC-medium;
+  margin-left: -300px;
+  margin-top: 10px;
+
+}
+.SSL-image{
+  display: block;
+  width: 14px;
+  height: 14px;
+  margin-top: -18px;
+  margin-left: 80px;
+}
+.SSL-image1{
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top: -18px;
+  margin-left: 300px;
+}
+.SSL_input{
+  width: 201px;
+  height: 25px;
+  line-height: 20px;
+  border-radius: 8px;
+  background-color: rgba(255,255,255,1);
+  color: rgba(16,16,16,1);
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.07);
+  margin-top: -32px;
+  margin-left: 75px;
+}
+/*正文*/
+.daohangkuang{
+  width: 650rpx;
+  height: 150rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50rpx;
+}
+.yansekuang{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  background-color: rgba(243,26,113,1);
+}
+.yansekuang image{
+  max-width: 100%;
+  max-height: 100%;
+  width: 55%;
+  height: 55%;
+  position: relative;
+  top: 23%;
+  left: 23%;
+}
+/*消息*/
+.xiaoxikuang{
+  display: flex;
+}
+.tupian{
+  width: 60rpx;
+  height: 60rpx;
+}
+
+
+.TBT-T-T{
+  left: 22px;
+top: 857px;
+width: 239px;
+height: 38px;
+line-height: 19px;
+color: rgb(16,16,16);
+font-size: 14px;
+text-align: left;
+font-family: PingFangSC-regular;
+}
+.TBT-T-T2{
+display: block;
+width: 154px;
+height: 14px;
+line-height: 14px;
+color: rgba(154,154,154,1);
+font-size: 10px;
+text-align: left;
+  margin-top: 20px;
+  margin-left: -0px;
+}
+.TBT-T-T3{
+  display: block;
+  width: 20px;
+  height: 14px;
+  line-height: 14px;
+  color: rgb(154,154,154);
+  font-size: 10px;
+  text-align: left;
+      margin-top: -50px;
+      margin-left: 250px;
+    }
+
+.TBTBG{
+display: block;
+margin-top: -80px;
+}
+.TBTBG image{
+width: 32px;
+height: 32px;
+margin-left: -50px;
+margin-top: 70px;
+}
+.TBALL{
+width: 370PX;
+height: 400PX;
+top: 120rpx;
+position: absolute;
+}
+.del{
+width: 59px;
+height: 50px;
+line-height: 50px;
+background-color: rgba(254,58,47,1);
+color: rgb(255, 255, 255);
+font-size: 14px;
+text-align: center;
+margin-top: -40px;
+margin-left: 302px;
+}
+.TB5-Table{
+
+margin-left: 70px;
+}
+.sc{
+margin-top: 20px;
+}

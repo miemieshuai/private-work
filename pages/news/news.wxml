@@ -1,2 +1,95 @@
-<!--pages/news/news.wxml-->
-<text>pages/news/news.wxml</text>
+<!--index.wxml-->
+<navigation-bar title="" back="{{false}}" color="black" background="green" style="height: 100rpx;"></navigation-bar>
+<!--搜索栏-->
+<view class="SLL">
+<text class="SSL_text">消息</text>
+<input type="text" class="SSL_input" placeholder="搜索应用 消息 新闻"/>
+<image src="/picture/search/search.png" mode="" class="SSL-image"/>
+<image src="/picture/search/scode.png" mode="" class="SSL-image1"/>
+<image src="/picture/search/mess.png" mode="" class="SSL-image1" style="margin-left: 340px; margin-top: -20px;"/>
+</view>
+
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+  <!--第一行-->
+  <view class="daohangkuang">
+    <view class="yansekuang">
+      <image src="/picture/news/闹钟.png"/>
+    </view>
+    <view class="yansekuang" style="background-color: rgba(32,155,253,1);">
+      <image src="/picture/news/待阅.png"/>
+    </view>
+    <view class="yansekuang"  style="background-color: rgba(255,191,107,1);">
+      <image src="/picture/news/已办01.png"/>
+    </view>
+    <view class="yansekuang"  style="background-color: rgba(136,103,245,1);">
+      <image src="/picture/news/已阅.png"/>
+    </view>
+    <view class="yansekuang"  style="background-color: rgba(58,209,174,1);">
+      <image src="/picture/news/已阅 (1).png"/>
+    </view>
+  </view>
+ 
+  <!--第二行-->
+ 
+  <view class="TBALL">   
+
+<scroll-view scroll-x class="sc"  
+style="display: {{is1}};"          >
+<view class="TB5-Table" >    
+<text class="TBT-T-T"> 教职工请假申请</text>
+<text class="TBT-T-T2">工作部门：申请人 www</text>
+<text class="TBT-T-T3">昨天</text>
+<view class="TBTBG">  
+<image src="/picture/news/消息.png" mode=""/>
+<view class="del " bind:tap="del1"> 删除</view>
+ </view>
+</view>
+</scroll-view>
+
+<scroll-view scroll-x class="sc" 
+style="display: {{is2}};"          >
+  
+  <view class="TB5-Table">    
+  <text class="TBT-T-T"> 教职工请假申请</text>
+  <text class="TBT-T-T2">工作部门：申请人 www</text>
+  <text class="TBT-T-T3">昨天</text>
+  <view class="TBTBG">  
+  <image src="/picture/news/3.1铃铛.png" mode=""/>
+  <view class="del " bind:tap="del2"> 删除</view>
+   </view>
+  </view>
+  </scroll-view>
+
+  <scroll-view scroll-x class="sc"    
+  style="display: {{is3}};"       >
+  
+  <view class="TB5-Table">    
+  <text class="TBT-T-T"> 党员信息申报</text>
+  <text class="TBT-T-T2">工作部门：申请人 XXX</text>
+  <text class="TBT-T-T3">今天</text>
+  <view class="TBTBG">  
+  <image src="/picture/news/网络.png" mode=""/>
+  <view class="del " bind:tap="del3"> 删除</view>
+   </view>
+  </view>
+  </scroll-view>
+
+  <scroll-view scroll-x class="sc"    
+  style="display: {{is3}};"       >
+  
+  <view class="TB5-Table">    
+  <text class="TBT-T-T"> 党员信息申报</text>
+  <text class="TBT-T-T2">工作部门：申请人 XXX</text>
+  <text class="TBT-T-T3">今天</text>
+  <view class="TBTBG">  
+  <image src="/picture/news/签证.png" mode=""/>
+  <view class="del " bind:tap="del3"> 删除</view>
+   </view>
+  </view>
+  </scroll-view>
+
+
+</view>
+  </view>
+</scroll-view>
