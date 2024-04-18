@@ -79,8 +79,8 @@
         </view>
         <!--滚动条第二个-->
         <view class="neirong">
-          <view class="yi">
-            <image src="/picture/first/文件-成绩.png"></image>
+          <view class="yi" style="background: linear-gradient(to right,rgb(252, 195, 49) 100%,rgba(255,138,14,1));">
+            <image src="/picture/first/图书.png"></image>
           </view>
           <view class="er">成绩查询</view>
           <view class="san">查询当前及历史成绩</view>
@@ -94,8 +94,8 @@
         </view>
         <!--滚动条第三个-->
         <view class="neirong">
-          <view class="yi">
-            <image src="/picture/first/文件-成绩.png"></image>
+          <view class="yi" style="background: linear-gradient(to right,rgba(15,195,252,1),rgba(46,136,216,1));">
+            <image src="/picture/first/钱钱.png"></image>
           </view>
           <view class="er">成绩查询</view>
           <view class="san">查询当前及历史成绩</view>
@@ -109,8 +109,8 @@
         </view>
         <!--滚动条第四个-->
         <view class="neirong">
-          <view class="yi">
-            <image src="/picture/first/文件-成绩.png"></image>
+          <view class="yi" style="background: linear-gradient(to right,rgba(222,134,143,1),rgba(189,49,36,1));">
+            <image src="/picture/first/预警.png"></image>
           </view>
           <view class="er">成绩查询</view>
           <view class="san">查询当前及历史成绩</view>
