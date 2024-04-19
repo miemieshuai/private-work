@@ -27,5 +27,19 @@
         </view>
       </view>
     </view>
+    <!--推荐应用-->
+    <view>
+      <view>推荐应用</view>
+      <view>
+        <view class="dise">
+          <image src="/picture/me/完成.png" mode=""/>
+        </view>
+        <view>
+          <view>教职工请假申请</view>
+          <view>工作部门：系统维护 请假申请人：XXX</view>
+        </view>
+        <view></view>
+      </view>
+    </view>
   </view>
 </scroll-view>
