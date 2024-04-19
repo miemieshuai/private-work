@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage() {
 
+  },
+  news(){
+    wx.switchTab({
+      url: '/pages/news/news',
+    })
   }
 })

@@ -1,2 +1,31 @@
-<!--pages/me/me.wxml-->
-<text>pages/me/me.wxml</text>
+<!--index.wxml-->
+<navigation-bar title="" back="{{false}}" color="black" background="green" style="height: 100rpx;"></navigation-bar>
+<!--头部-->
+<view class="SLL">
+<image class="SSL-image" src="/picture/me/齿轮.png"/>
+<view class="SSL_text">我的</view>
+<image  bind:tap="news" src="/picture/search/mess.png" mode="" class="SSL-image1" style="margin-left: 340px; margin-top: -20px; position: relative; left: -4rpx; top: -20rpx"/>
+</view>
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+  <!--两图片-->
+  <view class="liangtupian">
+      <!--左边的图片-->
+      <view class="left">
+        <image src="/picture/list/appgirl.png"></image>
+        <view style="margin-right: 30rpx; margin-top:50rpx;">
+          <view style="font-size: 20rpx;">我的收藏</view>
+          <view style="font-size: 15rpx; margin-top: 20rpx;">我收藏的应用</view>
+        </view>
+      </view>
+      <!--右边的图片-->
+        <view class="left right">
+        <image src="/picture/list/appboy.png"></image>
+        <view style="margin-right: 30rpx; margin-top:50rpx;">
+          <view style="font-size: 20rpx;">办事指南</view>
+          <view style="font-size: 15rpx; margin-top: 20rpx;">办事指南汇总</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</scroll-view>
