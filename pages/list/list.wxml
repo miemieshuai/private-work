@@ -6,7 +6,7 @@
 <input type="text" class="SSL_input" placeholder="搜索应用 消息 新闻"/>
 <image src="/picture/search/search.png" mode="" class="SSL-image"/>
 <image src="/picture/search/scode.png" mode="" class="SSL-image1"/>
-<image src="/picture/search/mess.png" mode="" class="SSL-image1" style="margin-left: 340px; margin-top: -20px;"/>
+<image  bind:tap="news" src="/picture/search/mess.png" mode="" class="SSL-image1" style="margin-left: 340px; margin-top: -20px;"/>
 </view>
 
 <scroll-view class="scrollarea" scroll-y type="list">
