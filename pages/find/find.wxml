@@ -27,7 +27,7 @@
   <view class="diliu">
       <view style="display: flex; justify-content: space-around;">
         <text style="font-size: 50rpx;margin: auto;">通知公告</text>
-        <text style="margin: auto;">通知公告</text>
+        <text style="margin: auto;" bind:tap="gaibian">通知公告</text>
         <text style="margin: auto;">综合信息</text>
         <text style="margin: auto;">学术动态</text>
       </view>
@@ -62,6 +62,17 @@
         </view>
         <view class="tpdise">
           <image src="/picture/first/item1.png"></image>
+        </view>
+      </view>
+      <!--添加行-->
+      <view class="diyipai" style="display: {{zhi}};">
+        <view>
+          <view style="font-size: 28rpx; margin-top: 15rpx;">关于2023新生入学教育系列培训课</view>
+          <view style="font-size: 28rpx; margin-top: 5rpx;">程的指导意见</view>
+          <view style="font-size: 18rpx; color: gray; margin-top: 15rpx;">信息化管理中心</view>
+        </view>
+        <view class="tpdise" style="background: linear-gradient(to bottom,rgba(129,179,55,1),rgba(129,179,55,0.2));">
+          <image src="/picture/first/item2.png"></image>
         </view>
       </view>
       <view></view>
