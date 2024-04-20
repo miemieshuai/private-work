@@ -1,0 +1,160 @@
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollarea {
+  flex: 1;
+  overflow-y: hidden;
+}
+/*个人信息*/
+.gerenkuang{
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200rpx;
+  
+}
+.touxiang{
+  height: 80rpx;
+  width: 80rpx;
+}
+.touxiang image{
+  max-height: 100%;
+  max-width: 100%;
+}
+/*搜索栏*/
+.SLL{
+  width: 390px;
+height: 44px;
+line-height: 20px;
+background-color: rgba(255,255,255,1);
+color: rgba(16,16,16,1);
+font-size: 14px;
+text-align: center;
+
+font-family: Roboto;
+}
+.SSL_text{
+
+  line-height:40px;
+  color: rgb(16,16,16);
+  font-size: 17px;
+  text-align: left;
+  font-family: PingFangSC-medium;
+  margin-left: 170px;
+  margin-top: -30px;
+
+}
+.SSL-image{
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+.SSL-image1{
+  display: block;
+  width: 20px;
+  height: 20px;
+  margin-top: -50px;
+  margin-left: 300px;
+}
+/*正文*/
+.liangtupian{
+  width: 650rpx;
+  height: 250rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.left{
+  width: 300rpx;
+  height: 175rpx;
+  border-radius: 25rpx;
+  background: linear-gradient(to right,rgba(254,178,122,1),rgba(255,122,92,1));
+  display: flex;
+  justify-content: space-between;
+}
+.left image{
+  max-width: 100%;
+  max-height: 100%;
+  width: 165rpx;
+  height: 150rpx;
+  object-fit: contain;
+  margin-top: 23rpx;
+}
+.left view{
+  color: white;
+}
+.right{
+  background: linear-gradient(to right,rgba(149,249,218,1),rgba(83,189,232,1));
+}
+/*推荐应用*/
+.TBT-T-T{
+  left: 22px;
+top: 857px;
+width: 239px;
+height: 38px;
+line-height: 19px;
+color: rgb(16,16,16);
+font-size: 14px;
+text-align: left;
+font-family: PingFangSC-regular;
+}
+.TBT-T-T2{
+display: block;
+width: 154px;
+height: 14px;
+line-height: 14px;
+color: rgba(154,154,154,1);
+font-size: 10px;
+text-align: left;
+  margin-top: 20px;
+  margin-left: -0px;
+}
+.TBT-T-T3{
+  display: block;
+  width: 20px;
+  height: 14px;
+  line-height: 14px;
+  color: rgb(154,154,154);
+  font-size: 10px;
+  text-align: left;
+      margin-top: -50px;
+      margin-left: 250px;
+    }
+
+.TBTBG{
+display: block;
+margin-top: -80px;
+}
+.TBTBG image{
+width: 32px;
+height: 32px;
+margin-left: -50px;
+margin-top: 70px;
+}
+.TBALL{
+width: 370PX;
+height: 400PX;
+top: 240rpx;
+position: absolute;
+}
+.del{
+width: 59px;
+height: 50px;
+line-height: 50px;
+background-color: rgba(254,58,47,1);
+color: rgb(255, 255, 255);
+font-size: 14px;
+text-align: center;
+margin-top: -40px;
+margin-left: 302px;
+}
+.TB5-Table{
+
+margin-left: 70px;
+}
+.sc{
+margin-top: 20px;
+}
