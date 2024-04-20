@@ -28,5 +28,12 @@
           <view>关于我们</view>
         </view>
       </view>
+      <!--退出登录-->
+      <view style="margin-top: 70rpx;">
+        <view class="zwkuang">
+          <image src="/picture/shezhi/退出登录.png" mode=""/>
+          <view style="color: blue;">退出登录</view>
+        </view>
+      </view>
   </view>
 </scroll-view>
