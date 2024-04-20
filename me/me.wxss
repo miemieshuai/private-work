@@ -158,3 +158,32 @@ margin-left: 70px;
 .sc{
 margin-top: 20px;
 }
+/*最新上线*/
+.biaoti{
+  width: 650rpx;
+  display: flex;
+  gap: 30rpx;
+  align-items: flex-end;
+}
+.zuixinshangxian{
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 7rpx;
+}
+.tbk{
+  display: flex;
+  justify-content: space-between;
+}
+.tubiaokuang{
+  width: 100rpx;
+  height: 100rpx;
+}
+.tubiaokuang image{
+  max-width: 100%;
+  max-height: 100%;
+}
+.tubiaokuang view{
+  font-size: 25rpx;
+  font-weight: bold;
+}

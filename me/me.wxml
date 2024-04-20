@@ -99,5 +99,54 @@ style="display: {{is2}};"          >
 
 
 </view>
+    <!--最新上线-->
+    <view style="margin-top: 650rpx;">
+      <view class="biaoti">
+      </view>
+      <view style="margin-top: 80rpx;">
+        <view style="font-size: 30rpx;font-weight: 700;margin-bottom: 30rpx;">我的收藏</view>
+      </view>
+      <!--最新上线图标-->
+      <view>
+        <!--最新上线图标第一排-->
+        <view class="tbk">
+          <view class="tubiaokuang">
+            <image src="/picture/list/zuixinshangxian/村学校.png"/>
+            <view>学校概况</view>
+          </view>
+          <view class="tubiaokuang">
+            <image src="/picture/list/zuixinshangxian/地图.png"/>
+            <view>学校地图</view>
+          </view>
+          <view class="tubiaokuang">
+            <image src="/picture/list/zuixinshangxian/消费预警.png"/>
+            <view>我的消费</view>
+          </view>
+          <view class="tubiaokuang">
+            <image src="/picture/list/zuixinshangxian/邮箱.png"/>
+            <view>电子邮件</view>
+          </view>
+        </view>
+        <!--最新上线图标第二排-->
+        <view class="tbk" style="margin-top: 100rpx;">
+          <view class="tubiaokuang">
+            <image src="/picture/list/zuixinshangxian/实物借阅.png"/>
+            <view>图书借阅</view>
+          </view>
+          <view class="tubiaokuang">
+            <image src="/picture/list/zuixinshangxian/获奖.png"/>
+            <view>获奖成果</view>
+          </view>
+          <view class="tubiaokuang">
+            <image src="/picture/list/zuixinshangxian/公共-红旗.png"/>
+            <view>我的党建</view>
+          </view>
+          <view class="tubiaokuang">
+            <image src="/picture/list/zuixinshangxian/权限审批.png"/>
+            <view>网上审批</view>
+          </view>
+        </view>
+      </view>
+    </view>
   </view>
 </scroll-view>
