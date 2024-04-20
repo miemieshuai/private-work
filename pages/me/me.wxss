@@ -74,17 +74,71 @@ font-family: Roboto;
   background: linear-gradient(to right,rgba(149,249,218,1),rgba(83,189,232,1));
 }
 /*推荐应用*/
-.dise{
-  height: 80rpx;
-  width: 80rpx;
-  background-color: rgba(255,191,107,1);
+.TBT-T-T{
+  left: 22px;
+top: 857px;
+width: 239px;
+height: 38px;
+line-height: 19px;
+color: rgb(16,16,16);
+font-size: 14px;
+text-align: left;
+font-family: PingFangSC-regular;
 }
-.dise image{
-  max-width: 100%;
-  max-height: 100%;
-  height: 60%;
-  width: 60%;
-  position: relative;
-  top: 15%;
-  left: 15%;
+.TBT-T-T2{
+display: block;
+width: 154px;
+height: 14px;
+line-height: 14px;
+color: rgba(154,154,154,1);
+font-size: 10px;
+text-align: left;
+  margin-top: 20px;
+  margin-left: -0px;
+}
+.TBT-T-T3{
+  display: block;
+  width: 20px;
+  height: 14px;
+  line-height: 14px;
+  color: rgb(154,154,154);
+  font-size: 10px;
+  text-align: left;
+      margin-top: -50px;
+      margin-left: 250px;
+    }
+
+.TBTBG{
+display: block;
+margin-top: -80px;
+}
+.TBTBG image{
+width: 32px;
+height: 32px;
+margin-left: -50px;
+margin-top: 70px;
+}
+.TBALL{
+width: 370PX;
+height: 400PX;
+top: 240rpx;
+position: absolute;
+}
+.del{
+width: 59px;
+height: 50px;
+line-height: 50px;
+background-color: rgba(254,58,47,1);
+color: rgb(255, 255, 255);
+font-size: 14px;
+text-align: center;
+margin-top: -40px;
+margin-left: 302px;
+}
+.TB5-Table{
+
+margin-left: 70px;
+}
+.sc{
+margin-top: 20px;
 }
