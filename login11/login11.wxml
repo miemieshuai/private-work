@@ -26,7 +26,13 @@
  </view>
 <text class="Text1">登录遇到问题 ? </text>
 
+<!-- <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover"> -->
+<button bind:tap="Login">
+  登录
 
+</button>
+
+ 
 
 </view>
 
