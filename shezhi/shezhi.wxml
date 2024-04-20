@@ -1,0 +1,32 @@
+<scroll-view class="scrollarea" scroll-y type="list">
+  <view class="container">
+      <!--设置头部-->
+      <view class="toubuwaikuang">
+        <image  bind:tap="me" class="fanhuitupian" src="/picture/shezhi/返回.png" mode=""/>
+        <view style="margin-left: 260rpx;font-size: 40rpx; font-weight: 700;">设置</view>
+      </view>
+      <!--正文-->
+      <view style="margin-top: 70rpx;">
+        <view class="zwkuang">
+          <image src="/picture/shezhi/消息_通知.png" mode=""/>
+          <view>新消息通知</view>
+        </view>
+        <view class="zwkuang">
+          <image src="/picture/shezhi/版本更新.png" mode=""/>
+          <view>版本更新</view>
+        </view>
+        <view class="zwkuang">
+          <image src="/picture/shezhi/清除缓存.png" mode=""/>
+          <view>清除缓存</view>
+        </view>
+        <view class="zwkuang">
+          <image src="/picture/shezhi/修改密码.png" mode=""/>
+          <view>修改密码</view>
+        </view>
+        <view class="zwkuang">
+          <image src="/picture/shezhi/关于我们.png" mode=""/>
+          <view>关于我们</view>
+        </view>
+      </view>
+  </view>
+</scroll-view>
