@@ -1,11 +1,14 @@
 {
   "pages": [
+    "pages/login11/login11",
     "pages/index/index",
     "pages/list/list",
     "pages/news/news",
     "pages/find/find",
     "pages/me/me",
-    "pages/shezhi/shezhi"
+    "pages/shezhi/shezhi",
+    "pages/login2/login2",
+    "pages/login3/login3"
   ],
   "window": {
     "navigationBarTextStyle": "black",

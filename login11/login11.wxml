@@ -1,0 +1,19 @@
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="red" style="width: 750rpx; height: 130rpx; display: block; box-sizing: border-box;">
+
+
+</navigation-bar>
+<!-- <scroll-view class="scrollarea" scroll-y type="list"> -->
+  <view class="container" style="margin-top: 70rpx;">
+<view class="title">  
+
+<text >账号密码登录</text>
+ <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">
+<image src="/picture/login/left.png"  />
+
+ </navigator>
+
+
+ </view>
+ 
+  </view>
+<!-- </scroll-view>
