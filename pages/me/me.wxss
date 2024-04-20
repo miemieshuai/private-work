@@ -7,6 +7,22 @@ page {
   flex: 1;
   overflow-y: hidden;
 }
+/*个人信息*/
+.gerenkuang{
+  width: 650rpx;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200rpx;
+  
+}
+.touxiang{
+  height: 80rpx;
+  width: 80rpx;
+}
+.touxiang image{
+  max-height: 100%;
+  max-width: 100%;
+}
 /*搜索栏*/
 .SLL{
   width: 390px;
@@ -16,7 +32,7 @@ background-color: rgba(255,255,255,1);
 color: rgba(16,16,16,1);
 font-size: 14px;
 text-align: center;
-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.1);
+
 font-family: Roboto;
 }
 .SSL_text{
@@ -141,4 +157,33 @@ margin-left: 70px;
 }
 .sc{
 margin-top: 20px;
+}
+/*最新上线*/
+.biaoti{
+  width: 650rpx;
+  display: flex;
+  gap: 30rpx;
+  align-items: flex-end;
+}
+.zuixinshangxian{
+  font-weight: 900;
+  text-decoration: underline;
+  text-decoration-color: green;
+  text-decoration-thickness: 7rpx;
+}
+.tbk{
+  display: flex;
+  justify-content: space-between;
+}
+.tubiaokuang{
+  width: 100rpx;
+  height: 100rpx;
+}
+.tubiaokuang image{
+  max-width: 100%;
+  max-height: 100%;
+}
+.tubiaokuang view{
+  font-size: 25rpx;
+  font-weight: bold;
 }
