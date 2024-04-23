@@ -10,7 +10,20 @@
 
 
  </view>
- 
+ <view class="main" style="position: absolute; left: -45rpx; top: 232rpx">
+ <image src="/picture/me/头像 女孩.png" mode=""/>
+<text class="Text1" style="position: relative; left: 172rpx; top: -70rpx; width: 392rpx; height: 40rpx; display: block; box-sizing: border-box">中国移动提供服务</text>
+
+<navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">
+<button>
+  登录
+
+</button>
+
+ </navigator>
+
+ </view>
+     
 
   </view>
 <!-- </scroll-view>
