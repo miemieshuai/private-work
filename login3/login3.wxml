@@ -5,7 +5,12 @@
 <!-- <scroll-view class="scrollarea" scroll-y type="list"> -->
   <view class="container">
   <navigator open-type="navigateBack" delta="1"><image style="height: 50rpx; width: 50rpx; position: relative; left: -277rpx; top: -57rpx; display: block; box-sizing: border-box" src="/picture/login/left.png" mode=""/></navigator>
+<view class="title">  
+<text style="position: relative; left: 1rpx; top: -194rpx">192****7974</text>
 
+
+ </view>
+ 
 
   </view>
 <!-- </scroll-view>
