@@ -4,3 +4,20 @@ page {
   display: flex;
   flex-direction: column;
 }
+.title{
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.title text{
+  margin-left:-145px;
+  font-size: 22px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.title image{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -260px;
+  right:200px;
+}
