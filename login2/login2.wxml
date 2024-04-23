@@ -1,0 +1,21 @@
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="red" style="width: 750rpx; height: 130rpx; display: block; box-sizing: border-box;">
+
+
+</navigation-bar>
+<!-- <scroll-view class="scrollarea" scroll-y type="list"> -->
+  <view class="container">
+<view class="title">  
+
+<text >你好,用户</text>
+<text class="t2" style="font-size: 12px;margin-left: -200rpx;">欢迎登录智慧校园系统，请进行人脸识别</text>
+ <navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">
+<image src="/imgs/left.png"  />
+
+ </navigator>
+
+
+ </view>
+
+
+  </view>
+<!-- </scroll-view>

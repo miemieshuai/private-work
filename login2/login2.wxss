@@ -1,0 +1,34 @@
+/**index.wxss**/
+page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  margin-top: -30px;
+}
+.title text{
+  margin-left:-145px;
+  font-size: 22px;
+  font-size: 26px;
+  font-weight: bold;
+}
+.title image{
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: -110px;
+  right:150px;
+}
+
+.t2{
+  width: 208px;
+height: 17px;
+line-height: 17px;
+color: rgb(121,121,121);
+font-size: 12px;
+text-align: left;
+position: relative;
+top: 20px;
+left: -10px;
+}
