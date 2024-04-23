@@ -23,7 +23,11 @@
  </navigator>
 
  </view>
-     
+      <!--切换账号-->
+      <view style="color: blue; width: 142rpx; height: 44rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: -20rpx">
+        切换账号
+      </view>
+      
 
   </view>
 <!-- </scroll-view>
