@@ -27,7 +27,13 @@
       <view style="color: blue; width: 142rpx; height: 44rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: -20rpx">
         切换账号
       </view>
-      
+      <!--同意服务-->
+      <view style="width: 650rpx;">
+        <view style="font-size: 26rpx; position: relative; left: 0rpx; top: 176rpx">
+          <checkbox value=""/>
+          <text>登录即代表同意<text style="color: blue;">中国移动认证服务条款</text>和<text style="color: blue;">应用自定义服务条款、应用自定义服务条款二</text>并使用本机号码登录</text>
+        </view>
+      </view>
 
   </view>
 <!-- </scroll-view>
