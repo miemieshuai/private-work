@@ -33,11 +33,7 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady() {
-    wx.showToast({
-      title: '成功',
-      icon: 'success',
-      duration: 1000//持续的时间
-    })
+
   },
 
   /**
