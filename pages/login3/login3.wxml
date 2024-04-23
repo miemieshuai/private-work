@@ -1,0 +1,39 @@
+<navigation-bar title="智慧校园" back="{{false}}" color="black" background="red" style="width: 750rpx; height: 130rpx; display: block; box-sizing: border-box;">
+
+
+</navigation-bar>
+<!-- <scroll-view class="scrollarea" scroll-y type="list"> -->
+  <view class="container">
+  <navigator open-type="navigateBack" delta="1"><image style="height: 50rpx; width: 50rpx; position: relative; left: -277rpx; top: -57rpx; display: block; box-sizing: border-box" src="/picture/login/left.png" mode=""/></navigator>
+<view class="title">  
+<text style="position: relative; left: 1rpx; top: -194rpx">192****7974</text>
+
+
+ </view>
+ <view class="main" style="position: absolute; left: -45rpx; top: 232rpx">
+ <image src="/picture/me/头像 女孩.png" mode=""/>
+<text class="Text1" style="position: relative; left: 172rpx; top: -70rpx; width: 392rpx; height: 40rpx; display: block; box-sizing: border-box">中国移动提供服务</text>
+
+<navigator url="/pages/index/index" open-type="switchTab" hover-class="other-navigator-hover">
+<button>
+  登录
+
+</button>
+
+ </navigator>
+
+ </view>
+      <!--切换账号-->
+      <view style="color: blue; width: 142rpx; height: 44rpx; display: block; box-sizing: border-box; position: relative; left: 0rpx; top: -20rpx">
+        切换账号
+      </view>
+      <!--同意服务-->
+      <view style="width: 650rpx;">
+        <view style="font-size: 26rpx; position: relative; left: 0rpx; top: 176rpx">
+          <checkbox value=""/>
+          <text>登录即代表同意<text style="color: blue;">中国移动认证服务条款</text>和<text style="color: blue;">应用自定义服务条款、应用自定义服务条款二</text>并使用本机号码登录</text>
+        </view>
+      </view>
+
+  </view>
+<!-- </scroll-view>

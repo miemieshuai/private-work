@@ -15,3 +15,18 @@ page {
   height: 50rpx;
   width: 50rpx;
 }
+/*正文*/
+.zwkuang{
+  margin-top: 18rpx;
+  width: 650rpx;
+  height: 100rpx;
+  border-bottom: 1px solid rgba(187,187,187,0.21);
+  display: flex;
+  align-items: center;
+}
+.zwkuang image{
+  margin-top: 10rpx;
+  margin-right: 50rpx;
+  width: 50rpx;
+  height: 50rpx;
+}
