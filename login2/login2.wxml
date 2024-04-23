@@ -15,6 +15,16 @@
 
 
  </view>
+ <view class="main">
+
+
+  <image style="height: 600rpx;" src="/picture/login/人脸识别.png" mode="" bind:tap="sucess"/>
+
+
+
+  <text class="t3"> 点击进行人脸验证</text>
+ </view>
+
 
 
   </view>
